@@ -1,0 +1,1299 @@
+/* medium phone and large phone */
+@media only screen and (min-width: 320px) and (max-width: 375px){
+    section{
+        padding: 25px 0;
+    }
+    /* ============================== */
+    /* HEADER SECTION */
+    /* ============================== */ 
+    .home-logo img {
+        height: 40px;
+        width: 110px;
+    }
+    
+    .logo{
+        float: left;
+        width: 40%;
+        margin: 0 25% 0 35%;
+    }
+    
+    .main-nav{
+        text-align: center;
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .main-nav li{
+        display: inline-block;
+        margin-left: 4px;
+    }
+    
+    .main-nav a:link,
+    .main-nav a:visited{
+        padding: 5px 7px;
+        font-size: 11px;
+    }
+    
+    /* ============================== */
+    /* BANNER SECTION */
+    /* ============================== */
+    .banner-section{
+        height: 75vh;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-top: 0%;
+        padding: 30px;
+    }
+
+    .banner-text h1{
+        font-size: 28px;
+    }
+
+    .banner-description {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .btn-banner:link,
+    .btn-banner:visited{
+        padding: 10px 20px;
+        font-size: 9px;
+    }
+
+    /* ============================== */
+    /* PRODUCT SECTION */
+    /* ============================== */
+    .product-section{
+        text-align: center;
+        padding: 60px 0 50px 0;
+    }
+
+    .product-section h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .product-section h2::after{
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .product-section .product-description {
+        width: 70%;
+        margin: 0 15%;
+        font-size: 12px;
+    }
+
+    .quantity-product {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .quantity-product h3,
+    .price-product h3 {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .price-product {
+        width: 50%;
+        margin-right: 25%;
+    }
+
+    /* PRODUCT DESIGN */
+    .product{
+        width: 100%;
+        padding: 5px 40px;
+    }
+
+    .product-card{
+        padding: 10px;
+        height: 440px;
+    }
+
+    .product-card h4{
+        font-size: 18px;
+    }
+
+    .price-product {
+        float: right;
+        margin-top: 15px;
+    }
+
+    .product-card p {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    .card-price p {
+        font-size: 15px;
+        margin-top: 18px;
+    }
+
+    .product-button {
+        padding: 7px 14px;
+        margin-top: 15px;
+        border: 1.5px solid #30bae7;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    /* ============================== */
+    /* ABOUT US SECTION */
+    /* ============================== */
+    .about-h2 {
+        font-size: 22px;
+    }
+
+    .about-section h2::after{
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .about-text{
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-text .about-p2 {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .about-text button {
+        padding: 7px 14px;
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-top: 90px;
+    }
+    .about-img-1 {
+        width: 90%;
+    }
+
+    .about-img-2 {
+        width: 60%;
+    }
+
+    /* ============================== */
+    /* CONTACT US SECTION */
+    /* ============================== */
+    .contact-details {
+        float: left;
+        width: 65%;
+        margin: 0 17.5%;
+        text-align: left;
+    }
+
+    .contact-details p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    
+    .contact-details p i {
+        margin: 3px;
+    }
+
+    .contact-form {
+        float: right;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .contact-section h2 {
+        font-size: 22px;
+    }
+
+    .contact-section h2::after {
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .contact-section form{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20px;
+    }
+
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section textarea{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .contact-section textarea{
+        height: 60px;
+    }
+
+    .contact-details h3 {
+        font-size: 14px;
+    }
+
+    .contact-details h4 {
+        font-size: 12px;
+    }
+
+    .btn-contact {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+
+    /* ============================== */
+    /* NEWSLETTER SECTION */
+    /* ============================== */
+    .newsletter-section h2 {
+        font-size: 22px;
+    }
+
+    .news-sub input {
+        width: 100%;
+
+    }
+
+    .news-sub input[type="email"]{
+        padding: 8px 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .news-sub button {
+        width: 60%;
+        padding: 7px 10px;
+        margin: 20%;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .news-sub p {
+        font-size: 12px;
+        width: 60%;
+        margin: 0  20%;
+        margin-top: 10px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION */
+    /* ============================== */
+    .footer-section {
+        padding: 30px 0;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer-nav a:link,
+    .footer-section .footer-nav a:visited {
+        padding: 0 4px;
+        font-size: 13px;
+    }
+
+
+    .footer-section li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-icon {
+        margin-top: 15px;
+    }
+
+    .footer-icon ul li {
+        margin: 0 3px;
+    }
+
+    .footer-icon ul li a:link i::before{
+        width: 12px;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+
+    .copy-right {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
+/* medium phone and large phone */
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+    section{
+        padding: 25px 0;
+    }
+    /* ============================== */
+    /* HEADER SECTION */
+    /* ============================== */
+    .home-logo img {
+        height: 40px;
+        width: 105px;
+    }
+
+    .logo{
+        margin:5px 0;
+        margin-bottom: 5px;
+        padding: 5px;
+        float: left;
+        width: 20%;
+        margin-left: 0%;
+
+    }
+
+    .main-nav{
+        width: 70%;
+        float: right;
+        text-align: right;
+        margin-top: 14px;
+        margin-right: 2%;
+        margin-bottom: 10px;
+    }
+
+    .main-nav li{
+        margin-left: 5px;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    /* ============================== */
+    /* BANNER SECTION */
+    /* ============================== */
+    .banner-section{
+        height: 75vh;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-top: 5%;
+        padding: 30px;
+    }
+
+    .banner-text h1{
+        font-size: 28px;
+    }
+
+    .banner-description {
+        font-size: 12px;
+    }
+
+    .btn-banner:link,
+    .btn-banner:visited{
+        padding: 10px 20px;
+        font-size: 9px;
+    }
+
+    /* ============================== */
+    /* PRODUCT SECTION */
+    /* ============================== */
+    .product-section{
+        text-align: center;
+        padding: 60px 0 50px 0;
+    }
+
+    .product-section h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .product-section h2::after{
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .product-section .product-description {
+        width: 70%;
+        margin: 0 15%;
+        font-size: 12px;
+    }
+
+    .quantity-product {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .quantity-product h3,
+    .price-product h3 {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .price-product {
+        width: 50%;
+        margin-right: 25%;
+    }
+
+    /* PRODUCT DESIGN */
+    .product{
+        width: 100%;
+        padding: 5px 40px;
+    }
+
+    .product-card{
+        padding: 10px;
+        height: 440px;
+    }
+
+    .product-card h4{
+        font-size: 18px;
+    }
+
+    .price-product {
+        float: right;
+        margin-top: 15px;
+    }
+
+    .product-card p {
+        font-size: 13px;
+        margin-top: 8px;
+    }
+
+    .card-price p {
+        font-size: 15px;
+        margin-top: 18px;
+    }
+
+    .product-button {
+        padding: 7px 14px;
+        margin-top: 15px;
+        border: 1.5px solid #30bae7;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    /* ============================== */
+    /* ABOUT US SECTION */
+    /* ============================== */
+    .about-h2 {
+        font-size: 22px;
+    }
+
+    .about-section h2::after{
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .about-text{
+        width: 70%;
+        margin: 0 15%;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-text .about-p2 {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .about-text button {
+        padding: 7px 14px;
+        margin-top: 15px;
+        font-size: 12px;
+        font-weight: bolder;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-top: 90px;
+    }
+    .about-img-1 {
+        width: 90%;
+    }
+
+    .about-img-2 {
+        width: 60%;
+    }
+
+    /* ============================== */
+    /* CONTACT US SECTION */
+    /* ============================== */
+    .contact-details {
+        float: left;
+        width: 65%;
+        margin: 0 17.5%;
+        text-align: left;
+    }
+
+    .contact-details p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    
+    .contact-details p i {
+        margin: 3px;
+    }
+
+    .contact-form {
+        float: right;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .contact-section h2 {
+        font-size: 22px;
+    }
+
+    .contact-section h2::after {
+        height: 2px;
+        margin-top: 10px;
+    }
+
+    .contact-section form{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20px;
+    }
+
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section textarea{
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .contact-section textarea{
+        height: 60px;
+    }
+
+    .contact-details h3 {
+        font-size: 14px;
+    }
+
+    .contact-details h4 {
+        font-size: 12px;
+    }
+
+    .btn-contact {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+
+    /* ============================== */
+    /* NEWSLETTER SECTION */
+    /* ============================== */
+    .newsletter-section h2 {
+        font-size: 22px;
+    }
+
+    .news-sub input {
+        width: 100%;
+
+    }
+
+    .news-sub input[type="email"]{
+        padding: 8px 8px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .news-sub button {
+        width: 50%;
+        padding: 7px 10px;
+        margin: 0 25%;
+        margin-top: 10px;
+    }
+
+    .news-sub p {
+        font-size: 12px;
+        width: 60%;
+        margin: 0  20%;
+        margin-top: 10px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION */
+    /* ============================== */
+    .footer-section {
+        padding: 30px 0;
+    }
+
+    .footer-logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .footer-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-section .footer-nav a:link,
+    .footer-section .footer-nav a:visited {
+        padding: 0 4px;
+        font-size: 13px;
+    }
+
+
+    .footer-section li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-icon {
+        margin-top: 15px;
+    }
+
+    .footer-icon ul li {
+        margin: 0 3px;
+    }
+
+    .footer-icon ul li a:link i::before{
+        width: 12px;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+
+    .copy-right {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+}
+
+/* tab device media query */
+@media only screen and (min-width: 601px) and (max-width:768px){
+    section{
+        padding: 30px 0;
+    }
+    /* ============================== */
+    /* HEADER SECTION */
+    /* ============================== */
+    .home-logo img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .logo{
+        margin: 5px 0;
+        padding: 5px;
+        float: left;
+        margin-left: 3%;
+        width: 30%;
+    }
+
+    .main-nav{
+        width: 65%;
+        float: right;
+        margin-top: 14px;
+        margin-right: 5%;
+    }
+
+    .main-nav li{
+        margin-left: 8px;
+    }
+
+    .main-nav a:link,
+    .main-nav a:visited{
+        padding: 6px 5px;
+        font-size: 14px;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION */
+    /* ============================== */
+    .banner-section{
+        height: 75vh;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-top: 8%;
+        padding: 30px;
+    }
+
+    .banner-text h1{
+        font-size: 35px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .btn-banner:link,
+    .btn-banner:visited{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    /* ============================== */
+    /* PRODUCT SECTION */
+    /* ============================== */
+    .product-section{
+        text-align: center;
+        padding: 80px 0 50px 0;
+    }
+
+    .product-section h2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .product-section .product-description {
+        width: 70%;
+        margin: 0 15%;
+        font-size: 14px;
+    }
+
+    .quantity-product {
+        margin: 20px 0 0 25px;
+    }
+
+    .quantity-product h3,
+    .price-product h3 {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    .price-product {
+        margin: 20px 25px 0 0;
+    }
+
+    /* PRODUCT DESIGN */
+    .product{
+        width: 50%;
+        padding: 5px 15px;
+    }
+
+    .product-card{
+        padding: 12px;
+    }
+
+    .product-card h4{
+        font-size: 22px;
+    }
+
+    .price-product {
+        float: right;
+        margin-top: 20px;
+    }
+
+    .product-card p {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .card-price p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .product-button {
+        padding: 10px 18px;
+        margin-top: 10px;
+        border: 1.5px solid #30bae7;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* ============================== */
+    /* ABOUT US SECTION */
+    /* ============================== */
+    .about-h2 {
+        font-size: 25px;
+    }
+
+    .about-text{
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .about-text .about-p2 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .about-text button {
+        padding: 8px 18px;
+        margin-top: 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about-img-1 {
+        width: 70%;
+    }
+
+    .about-img-2 {
+        width: 45%;
+    }
+
+
+    /* ============================== */
+    /* CONTACT US SECTION */
+    /* ============================== */
+    .contact-details {
+        float: left;
+        width: 65%;
+        margin: 0 17.5%;
+        text-align: left;
+    }
+
+    .contact-form {
+        float: right;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .contact-section h2 {
+        font-size: 25px;
+    }
+
+    .contact-section form{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20px;
+    }
+
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section textarea{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .contact-section textarea{
+        height: 80px;
+    }
+
+    .contact-details h3 {
+        font-size: 16px;
+    }
+
+    .contact-details h4 {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+
+    /* ============================== */
+    /* NEWSLETTER SECTION */
+    /* ============================== */
+    .newsletter-section h2 {
+        font-size: 25px;
+    }
+
+    .news-sub input {
+        width: 50%;
+    }
+
+    .news-sub input[type="email"]{
+        padding: 8px 14px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .news-sub button {
+        width: 40%;
+        padding: 7px 16px;
+        margin-left: 5px;
+    }
+
+    .newsletter-section p {
+        font-size: 14px;
+        width: 75%;
+        margin: 0  12.5%;
+        margin-top: 10px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION */
+    /* ============================== */
+    .footer-section {
+        padding: 40px 0;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        margin-bottom: 25px;
+    }
+
+    .footer-section .footer-nav a:link,
+    .footer-section .footer-nav a:visited {
+        padding: 0 4px;
+        font-size: 14px;
+    }
+
+    .footer-hr {
+        width: 90%;
+        margin: auto;
+        background-color: #fff;
+    }
+
+    .footer-section li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-icon {
+        margin-top: 30px;
+    }
+
+    .footer-icon ul li {
+        margin: 0 3px;
+    }
+
+    .footer-icon ul li a:link i::before{
+        width: 14px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+
+    .copy-right {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
+
+/*laptop, squire monitor */
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    section{
+        padding: 40px 0;
+    }
+    /* ============================== */
+    /* HEADER SECTION */
+    /* ============================== */
+    
+    .home-logo img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .logo{
+        margin: 5px 0;
+        padding: 5px;
+        float: left;
+        margin-left: 3%;
+        width: 30%;
+    }
+
+    .main-nav{
+        width: 65%;
+        float: right;
+        margin-top: 14px;
+        margin-right: 5%;
+    }
+
+    .main-nav li{
+        margin-left: 10px;
+    }
+
+    /* ============================== */
+    /* BANNER SECTION */
+    /* ============================== */
+    .banner-section{
+        height: 75vh;
+    }
+
+    .banner-text {
+        width: 100%;
+        margin-top: 6%;
+        padding: 30px;
+    }
+
+    .banner-text h1{
+        font-size: 35px;
+    }
+
+    .banner-description {
+        font-size: 16px;
+    }
+
+    .btn-banner:link,
+    .btn-banner:visited{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+    /* ============================== */
+    /* PRODUCT SECTION */
+    /* ============================== */
+    .product-section{
+        text-align: center;
+        padding: 80px 0 50px 0;
+    }
+
+    .product-section h2 {
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+
+    .product-section .product-description {
+        width: 70%;
+        margin: 0 15%;
+        font-size: 14px;
+    }
+
+    .quantity-product {
+        margin: 20px 0 0 25px;
+    }
+
+    .quantity-product h3,
+    .price-product h3 {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
+
+    .price-product {
+        margin: 20px 25px 0 0;
+    }
+
+    /* PRODUCT DESIGN */
+    .product{
+        width: 33.33%;
+        padding: 5px 12px;
+    }
+
+    .product-card{
+        padding: 12px;
+    }
+
+    .product-card h4{
+        font-size: 22px;
+    }
+
+    .price-product {
+        float: right;
+        margin-top: 20px;
+    }
+
+    .product-card p {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .card-price p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .product-button {
+        padding: 10px 18px;
+        margin-top: 10px;
+        border: 1.5px solid #30bae7;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    /* ============================== */
+    /* ABOUT US SECTION */
+    /* ============================== */
+    .about-h2 {
+        font-size: 25px;
+    }
+
+    .about-text{
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .about-text .about-p2 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .about-text button {
+        padding: 8px 18px;
+        margin-top: 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about-img-1 {
+        width: 70%;
+    }
+
+    .about-img-2 {
+        width: 45%;
+    }
+
+
+    /* ============================== */
+    /* CONTACT US SECTION */
+    /* ============================== */
+    .contact-details {
+        float: left;
+        width: 65%;
+        margin: 0 17.5%;
+        text-align: left;
+    }
+
+    .contact-form {
+        float: right;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .contact-section h2 {
+        font-size: 25px;
+    }
+
+    .contact-section form{
+        width: 80%;
+        margin: 0 10%;
+        margin-top: 20px;
+    }
+
+    .contact-section input[type="text"],
+    .contact-section input[type="email"],
+    .contact-section textarea{
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .contact-section textarea{
+        height: 80px;
+    }
+
+    .contact-details h3 {
+        font-size: 16px;
+    }
+
+    .contact-details h4 {
+        font-size: 16px;
+    }
+
+    .btn-contact {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+
+    /* ============================== */
+    /* NEWSLETTER SECTION */
+    /* ============================== */
+    .newsletter-section h2 {
+        font-size: 25px;
+    }
+
+    .news-sub input {
+        width: 60%;
+
+    }
+
+    .news-sub input[type="email"]{
+        padding: 8px 14px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .news-sub button {
+        width: 35%;
+        padding: 7px 16px;
+        margin-left: 5px;
+    }
+
+    .newsletter-section p {
+        font-size: 14px;
+        width: 60%;
+        margin: 0  20%;
+        margin-top: 10px;
+    }
+
+    /* ============================== */
+    /* FOOTER SECTION */
+    /* ============================== */
+    .footer-section {
+        padding: 40px 0;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav {
+        margin-bottom: 25px;
+    }
+
+    .footer-section .footer-nav a:link,
+    .footer-section .footer-nav a:visited {
+        padding: 0 4px;
+        font-size: 14px;
+    }
+
+    .footer-hr {
+        width: 90%;
+        margin: auto;
+        background-color: #fff;
+    }
+
+    .footer-section li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .footer-icon {
+        margin-top: 30px;
+    }
+
+    .footer-icon ul li {
+        margin: 0 3px;
+    }
+
+    .footer-icon ul li a:link i::before{
+        width: 14px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+
+    .copy-right {
+        margin-top: 20px;
+        font-size: 14px;
+    }   
+}
